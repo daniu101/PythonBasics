@@ -8,19 +8,18 @@ if a > b  :
     c = a + b
     print ("c = a + b = :",c)
     
-elif a == 1 :
+elif a == 10 :
     c = a
     print ("c :",c)
     
-elif b == 2 :
+elif b == 20 :
     c = b
     print ("c :",c)
     
-elif a < b :
+elif a < -1 :
     c = a - b
-    print ("c = a - b = :",c)    
+    print ("c = a - b = :",c)   
+     
 else :
     c = 100
     print ("c = :",c)   
-        
-print("testOk")
